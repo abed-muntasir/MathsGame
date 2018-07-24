@@ -3,6 +3,9 @@ html{
     background: radial-gradient(circle, #FFF, #CCC);
     font-family: sans-serif;
     font-size: 0.93em;
+    background: -webkit-radial-gradient(circle, #FFF, #CCC);
+    background: -moz-radial-gradient(circle, #FFF, #CCC);
+    background: -o-radial-gradient(circle, #FFF, #CCC);
 }
 
 #container{
@@ -50,8 +53,10 @@ html{
     height: 150px;
     margin: 50px auto 10px auto;
     background-color: #9DA0EA;
-    box-shadow: 0px 4px #535AA8;
-    font-size: center;
+    box-shadow: 0px 4px #535aa8;
+    -moz-box-shadow: 0px 4px #535aa8;
+    -webkit-box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
     text-align: center;
     font-family: cursive, sans-serif;
     color: black;
